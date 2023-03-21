@@ -1,0 +1,136 @@
+:root{
+    --primary-color:white;
+}
+body{
+    background-color:black;
+}
+#seleccionar-mascota{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 4px;
+    margin-top: 40px;
+    padding-left:12px;
+}
+.subtitulo {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    margin:4px;
+}
+.tarjetas, .tarjetas-ataques{
+    display:flex;
+    gap:10px;
+}
+.tarjeta-de-mokepon {
+    width:204px;
+    height:214px;
+    background-color: transparent;
+    padding:10px;
+    box-sizing:border-box;
+    margin:10px;
+    border: 4px solid var(--primary-color);
+    border-radius: 40px 20px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta-de-mokepon p{
+    padding-left: 24px;
+}
+.tarjeta-de-mokepon img{
+    width:140px;
+    padding-left: 10px;
+}
+input{
+    display:none;
+}
+
+input:checked + label {
+    background-color: gray;
+}
+
+.boton-seleccionar-mascota{
+    background-color:transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    color:var(--primary-color);
+    width:250px;
+    height:50px;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top:70px;
+}
+
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    border: 4px solid var(--primary-color);
+    border-radius: 50%;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+div p{
+    color: var(--primary-color);
+    font-family:'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+#mensajes {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#resultado {
+    font-size: 20px;
+    color:var(--primary-color);
+    width:386px;
+    height:10px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top:36px;
+}
+
+#boton-reiniciar{
+    background-color:transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    color: var(--primary-color);
+    width:250px;
+    height:50px;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top:40px;
+}
+.ataques{
+    display:grid;
+    grid-template-columns: 230px 230px;
+}
+#vidas-jugador, #vidas-enemigo {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+.ataques-jugador, .ataques-enemigo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mascota-jugador, #mascota-enemigo{
+    font-size: 20px;
+    margin:20px;
+}

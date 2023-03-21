@@ -1,0 +1,54 @@
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 26px;
+        margin-top: 6px;
+    }
+    .subtitulo{
+        font-size:16px;
+        padding: 12px;
+    }
+    .tarjetas{
+        flex-direction: column;   
+        gap:0px;
+    }  
+    .tarjeta-de-mokepon{
+        width:196px;
+        height: 150px;
+    } 
+    .tarjeta-de-mokepon img{
+        width:90px;
+        height: 80px;    
+        padding-left: 40px;
+    }
+    .boton-seleccionar-mascota{
+        font-size:12px;
+        width: 170px;
+        height: 41px;
+        margin-top: 10px;
+    } 
+    .ataques{
+        grid-template-columns: 150px 150px;
+    }
+    
+    #vidas-jugador, #vidas-enemigo {
+        font-size: 20px;
+        margin-bottom: 2px;
+        margin-top: 20px;
+    }
+    #mascota-jugador, #mascota-enemigo{
+        font-size: 16px;
+        margin:5px;
+    }
+    #resultado{
+        font-size: 16px;
+        width: 380px;
+        height: 36px;
+        padding-left: 86px;
+    }
+    #boton-reiniciar{
+        font-size:12px;
+        width: 170px;
+        height: 41px;
+        margin-top: 10px;
+    }
+}
